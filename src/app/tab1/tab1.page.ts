@@ -7,11 +7,11 @@ import { NativeSettings, AndroidSettings, IOSSettings } from 'capacitor-native-s
 
 
 @Component({
-  selector: 'app-home',
-  templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
+  selector: 'app-tab1',
+  templateUrl: 'tab1.page.html',
+  styleUrls: ['tab1.page.scss']
 })
-export class HomePage {
+export class Tab1Page {
 
   constructor(
     private actionSheetController: ActionSheetController,
